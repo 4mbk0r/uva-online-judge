@@ -2,32 +2,30 @@
 using namespace std;
 int main(int argc, char const *argv[])
 {
-	int n;
-	cin>>n;
-	string l;
-	while(n--){
-		cin>>l;
-		int i=0,f=3;
-		string l2 = ""+l[0]+l[1]+l[3]+l[4];
-		bool sw=true;
-		while(i<=f){
-			if(l2[i]==0 && sw )
-				i++;
-			else{
-				sw=false;
-				if(l2[i]==l2[f]){
-					i++;
-					f--;
-				}
+	int t;
+	scanf("%d\n",&t);
+	char l[10];
+	while(t--){
+		scanf("%s",l);
+		int a = (l[0]-'0')*10+(l[1]-'0');
+		int b = (l[3]-'0')*10+(l[4]-'0');
+		int n =  a*100+b;
+		while(true){
+			int aux = (b+1)%60;
+			a = (a+((b+1)/60))%24;
+			b=aux;
+			n = a*100+b;
+			int m=0;
+			aux=n;
+			while(aux>0){
+				m=m*10+aux%10;
+				aux/=10;
 			}
-
+			if(m==n) break;
 		}
-		
-		//ab:cd
-		// 
-
+		printf("%02d:%02d\n",a,b);
 	}
-	return 0;
+	return 0;	
 }
 /*
 El rival de Wolfgang Puck, Emeril Lagasse (\ BAM! "), Estableció recientemente el
