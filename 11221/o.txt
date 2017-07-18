@@ -1,0 +1,12 @@
+Case #1:
+No magic :(
+Case #2:
+5
+Case #3:
+No magic :(
+Case #4:
+5
+Case #5:
+4
+Case #6:
+2
