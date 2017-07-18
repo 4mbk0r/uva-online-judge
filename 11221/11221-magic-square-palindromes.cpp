@@ -7,6 +7,8 @@ int main(int argc, char const *argv[])
 	int t;
 	cin>>t;
 	string l,r,s;
+	
+	getline(cin,s);
 	for(int j=1;j<=t;j++){
 		getline(cin,s);
 		l=r="";

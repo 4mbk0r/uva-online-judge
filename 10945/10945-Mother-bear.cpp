@@ -5,7 +5,6 @@ int main(int argc, char const *argv[])
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	string s;
-	
 	getline(cin,s);
 	while(s!="DONE"){
 		string l,r;
