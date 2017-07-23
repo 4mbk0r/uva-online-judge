@@ -1,0 +1,31 @@
+Hay una famosa estación de tren en PopPush City. 
+País es increíblemente montañoso. La estación
+Fue construido en el siglo pasado. 
+Desafortunadamente, los fondos eran muy limitados ese tiempo. Fue posible establecer sólo una pista de superficie.
+Además, resultó que la estación podría ser sólo un callejón sin salida
+(Ver imagen) y debido a la falta de espacio disponible que podría tener sólo una pista.
+La tradición local es que cada tren que llega desde la dirección A continúa en la dirección
+B con entrenadores reorganizados de alguna manera. Supongamos que el tren que llega desde la dirección A tiene
+norte
+Contagem de
+1000
+Entrenadores numerados en orden creciente
+1
+;
+2
+;:::;NORTE
+. El jefe de reorganizaciones de trenes debe
+Saber si es posible coordinar a los entrenadores continuando en la dirección B para que su orden
+ser
+un
+1
+:un
+2
+;:::;un
+norte
+. Ayúdelo y escriba un programa que decida si es posible obtener los requisitos
+Orden de entrenadores. Usted puede asumir que los coches individuales pueden ser desconectados del tren antes de que
+Entrar en la estación y que puedan moverse hasta que estén en la pista en la dirección B. Usted
+También se puede suponer que en cualquier momento se pueden ubicar tantos entrenadores como sea necesario en la estación.
+Pero una vez que un entrenador ha entrado en la estación no puede volver a la pista en la dirección A y también una vez
+Ha dejado la estación en la dirección B no puede volver a la estación.
